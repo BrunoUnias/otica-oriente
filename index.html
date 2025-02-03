@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Otica Oriente</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="src/estilo/header.css">
+    <link rel="stylesheet" href="src/estilo/footer.css">
     <link rel="stylesheet" href="src/estilo/reset.css">
 </head>
 <body>
     <header>
-        <div>
-            <p>
-                informação
-            </p>
+        <div  id="tn" class="top_notice">
+            <p class="top2">
+                Oculos quentes: a partir de R$30 & -20% extra em lentes de contato & frete gratis
+            </p>  
+            <button class="topMedia" id="tm">X</button>
         </div>
         <div class="top-principal">
             <div class="logo">
@@ -25,43 +28,87 @@
                     <input type="text" maxlength="800" placeholder=" o que procura">
                 </div>
             </div>
-            <div class="lista-servico">
+            <div class="lista">
                 <nav>
                     <div>
                         <ul>
-                            <li>
-                                <a href="">Colabs</a>
-                            </li>
-                            <li>
-                                <a href="">Liquidação</a>
-                            </li>
-                            <li>
-                                <a href="">Perfomance</a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    Serviços
-                                    <div>
-                                        <nav>
-                                            <ul>
-                                                <li><a href="">Login</a> </li>
-                                                <li><a href=""> carrinho</a></li>
-                                                <li><a href="">novidades</a> </li>
-                                                <li><a href="">blog</a> </li>
-                                                <li><a href="">sair</a> </li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                  
-                                </a>
+                            <li><a href="">Colabs</a></li>
+                            <li><a href="">Liquidação</a></li>
+                            <li><a href="">Perfomance</a></li>
+                            <li><a href="" class="mainMenu">Serviços</a>
+                                <div class="vertical">
+                                    <nav class="dropdow">
+                                        <ul>
+                                            <li><a href="">Login</a> </li>
+                                            <li><a href=""> carrinho</a></li>
+                                            <li><a href="">novidades</a> </li>
+                                            <li><a href="">blog</a> </li>
+                                            <li><a href="">sair</a> </li>
+                                        </ul>
+                                    </nav>
+                                </div>
                             </li>
                         </ul>
                     </div>
-                   
                 </nav>
-            </div>
-
+            </di>  
         </div>
     </header>
+    <div>
+        <main>
+
+        </main>
+    </div>
+
+    <div>
+        <footer class="rodape">
+            <div class="row">
+                <div>
+                    <ul>
+                        <p>Categorias</p>
+                        <li><a href=""> Acessórios</a></li>
+                        <li><a href="">Lentes</a> </li>
+                        <li><a href="">Armação</a></li>
+                        <li><a href="">Marcas</a></li>
+                        <li><a href="">Modelos</a></li>
+                        <li><a href="">Oculos de sol</a></li>
+                        <li><a href="">Esportivos</a></li>
+                        <li><a href="">Vale presente</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <p>Links importantes</p>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Ofertas</a></li>
+                        <li><a href="">Política de cancelamento e reembolso</a></li>
+                        <li><a href="">Política de compras</a></li>
+                        <li><a href="">Política de entrega</a></li>
+                        <li><a href="">Trocas e devoluções</a></li>
+                        <li><a href="">Favoritos</a></li>
+                    </ul>
+                </div>
+                <div>
+                   <ul>
+                    <p>Atendimento</p>
+                    <li><a href="">otica@gmail.com</a></li>
+                    <li><a href="">(16) 99765-9007</a></li>
+                   </ul>
+                   <div class="social">
+                        <p>Midias sociais</p>
+                        <ul>
+                            <li><a href=""><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+                            <li><a href=""><i class="fa-brands fa-whatsapp"></i> whatsapp </a></li>
+                            <li><a href=""><i class="fa-brands fa-instagram"></i> instagram</a></li>
+                        </ul>
+                        
+                   </div>
+                </div>
+
+            </div>
+
+        </footer>
+    </div>
 </body>
 </html>
