@@ -1,0 +1,43 @@
+.sidebar {
+    position: absolute;
+    top: 120px;
+    left: 10px;
+    padding: 12px;
+    bottom: 0;
+    width: 300px;
+
+}
+
+.sidebar_navigation {
+    padding: 16px 0 0 16px;
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 10px 10px 10px;
+
+}
+
+.sidebar ul li {
+    padding: 1px 0;
+
+}
+
+.sidebar nav ul li p {
+    color: #002D62;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.sidebar nav ul li p a {
+    color:#002D62;
+    text-decoration: none;
+    padding: 16px 28px 10px 20px;
+    font-weight: 600;
+    font-size: 28px;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+
