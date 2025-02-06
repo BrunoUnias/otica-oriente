@@ -5,10 +5,12 @@ var remove = document.getElementById('tm').addEventListener("click", function(){
     
 })
 
-var dropdown = document.getElementById('drop').addEventListener('click', function() {
-    var drow = document.getElementById('down');
-    drow.remove();
-    
-})
+const menu = document.querySelector('.mainMenu');
+const vertical = document.querySelector('.vertical');
+
+menu.onclick = () => {
+    vertical.classList.toggle('.ativo');
+
+}
 
 

@@ -107,6 +107,7 @@ button {
     align-items: center;
     max-width: 32px;
     padding-bottom: 8px;
+    cursor: pointer;
 
 }
 
@@ -118,6 +119,7 @@ button {
     justify-content: space-around;
     color: #121212;
     margin-top: 42px;
+    
 
 }
 
@@ -144,6 +146,20 @@ a {
     height: 20px;
     position: absolute;
     background-color: #E5E4E2;
+
+}
+
+.vertical {
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+
+
+}
+
+.vertical  .vertical.ativo {
+    opacity: 1;
+    visibility: visible;
 
 }
 
