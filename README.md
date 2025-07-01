@@ -1,4 +1,4 @@
-# ![alt text](src/assests/icones/por-do-sol.png) otica-oriente
+# otica-oriente
 
 ## descrição
 
