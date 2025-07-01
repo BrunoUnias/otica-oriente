@@ -14,7 +14,7 @@
 
 
 
-### ![alt text](assests/image/icons8-alvo-16.png) Objetivo
+###  Objetivo
 
     Exibir minhas habilidade e aprimorar as já existentes por meio de um projeto de dificuldade facil.
 
