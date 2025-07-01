@@ -1,0 +1,191 @@
+.main-container {
+    max-width: 80vw;
+    height: 100vh;
+    margin-left: 136px;
+    margin-right: 56px;
+    margin-bottom: 136px;
+      
+  }
+  
+  .main-product {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 62px;
+  
+  }
+  
+  .product-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 14px;
+  
+      
+      
+  }
+  
+  h1 {
+      font-size: 28px;
+      margin-left: 271px;
+      margin-top: 27px;
+      font-weight: 400;
+      color: black;
+  
+  
+  }
+  
+  .produto {
+      width: 138px;
+  }
+  
+  .offer_scroll-container {
+      max-height: 43vh;
+      margin: 24px;
+      overflow-y: auto;
+      scroll-behavior: smooth;
+    }
+    
+    .offer_scroll-container::-webkit-scrollbar {
+      width: 1px;
+    }
+    
+    .offer_scroll-container::-webkit-scrollbar-thumb {
+      background-color: transparent;
+    }
+    /* FIM SCROLL */
+    
+    .offer_list-item {
+      display: grid;
+      justify-items: center;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-gap: 16px;
+      gap: 16px;
+      margin-bottom: 16px; 
+    
+    }
+    
+    /* POSITION */
+    /* principais são static, relative, absolute, fixed, e sticky. */
+    
+    .cards {
+      position: relative; /* relative:
+                              Comportamento em relação a si mesmo: O elemento é posicionado em relação à sua posição original.
+                              Mantém espaço original: O espaço original que o elemento ocuparia não é alterado, mas você pode movê-lo com top, right, bottom ou left. */
+      width: 220px;
+      height: 220px;
+      overflow: hidden;
+      border-radius: 8px;
+      align-items: center;
+    }
+    
+    .cards span {
+      margin: 8px 87px 87px 8px;
+      position: relative;
+      /* absolute:
+                              Comportamento em relação ao ancestral posicionado mais próximo ou ao elemento raiz (se nenhum ancestral estiver posicionado).
+                              Remove do fluxo normal: O elemento é removido do fluxo normal do documento, o que significa que outros elementos agem como se o elemento não estivesse presente. */
+      color: black;
+      font-size: 24px;
+      font-weight: 700;
+    }
+  
+    .preco span {
+      padding: 16px;
+      position: relative;
+      color: black;
+      font-size: 24px;
+      font-weight: 700;
+  
+    }
+  
+  .card1 {
+      background-color: transparent;
+     
+    }
+  
+  .card2 {
+      background-color: transparent;
+    }
+  
+  .card3 {
+      background: transparent;
+    }
+  
+  .card4 {
+    background: transparent;
+  }
+  
+  .card1 img {
+    margin-top: 18px;
+    margin-left: 48px;
+  }
+  
+  .card2 img {
+    margin-top: 18px;
+    margin-left: 48px;
+  }
+  
+  .card3 img {
+    width: 138px;
+    margin-top: 18px;
+    margin-left: 48px;
+  }
+  
+  .card4 img {
+    width: 138px;
+    margin-top: 18px;
+    margin-left: 48px;
+  }
+  
+  
+  a {
+    text-decoration: none;
+  }
+    
+  .promocaoContainer {
+    display: flex;
+    position: relative;
+    justify-items: right;
+    margin-left: 48rem;
+    margin-bottom:  236px;
+  
+  }
+  
+  .oticaContainer {
+    height: 68vh;
+    padding-top: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    
+  }
+  
+  .carosel {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  
+  }
+  
+  .botao {
+    width: 182px;
+    height: 74px;
+    background-color: #C41E3A;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 8px;
+  
+  }
+  
+  .compra {
+    display: flex;
+    justify-content: center;
+  
+  }
