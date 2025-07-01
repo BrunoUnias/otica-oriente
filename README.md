@@ -28,7 +28,7 @@
     Parte superior
    <img src="src/assests/image/Captura de tela_30-6-2025_21212_.jpeg" alt="">
 
-    Pagina do jogo
+    Parte inferior
 
    <img src="src/assests/image/Captura de tela_30-6-2025_212310_.jpeg" alt="">
 
