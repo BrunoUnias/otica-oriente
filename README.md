@@ -20,7 +20,7 @@
 
 ### Status do Projeto
 
-   ![Static Badge](https://img.shields.io/badge/status-construção-oragen) 
+   ![Static Badge](https://img.shields.io/badge/status-construção-orange) 
 
 
 ### Resultado final
